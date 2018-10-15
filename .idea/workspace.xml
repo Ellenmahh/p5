@@ -27,8 +27,8 @@
       <file leaf-file-name="sketch.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/empty-example/sketch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="289">
+              <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -220,7 +220,7 @@
       <workItem from="1539187612557" duration="5154000" />
       <workItem from="1539272467287" duration="1812000" />
       <workItem from="1539606266302" duration="1124000" />
-      <workItem from="1539619439079" duration="3703000" />
+      <workItem from="1539619439079" duration="3734000" />
     </task>
     <task id="LOCAL-00001" summary="variable">
       <created>1539620220347</created>
@@ -229,11 +229,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539620220347</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="colors variable">
+      <created>1539624145771</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539624145771</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11793000" />
+    <option name="totallyTimeSpent" value="11824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="793" y="0" width="814" height="867" extended-state="0" />
@@ -276,7 +283,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="variable" />
-    <option name="LAST_COMMIT_MESSAGE" value="variable" />
+    <MESSAGE value="colors variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="colors variable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -341,8 +349,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/empty-example/sketch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="289">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding />
         </state>
       </provider>

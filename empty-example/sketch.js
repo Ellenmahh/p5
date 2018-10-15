@@ -15,6 +15,7 @@ function draw() {
     fill(250, 200, 200);
     ellipse(mouseX, mouseY, circle.diameter, circle.diameter);
 
+    
     circle.x ++;
 
 

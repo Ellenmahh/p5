@@ -1,22 +1,17 @@
-var r = 0;
-var b = 255;
-var circle = {x :0 , y: 200, diameter : 50};
+var spot = {x:100, y:50};
+var col = {r: 255, g:0, b:0};
 function setup() {
-    createCanvas(700, 300);
+    createCanvas(600, 400);
+    background(0);
 }
 
 function draw() {
-    //oq sera mapeado,
-    // min e max do alcance(tamanho da tela),
-    // min e max intervalo
-    r = map(mouseX, 0, 600 , 0 , 255);
-    b = map(mouseY, 0, 600 , 0 , 255);
-    background(r, 0 , b);
-    fill(250, 200, 200);
-    ellipse(mouseX, mouseY, circle.diameter, circle.diameter);
-
-    
-    circle.x ++;
-
-
+    spot.x= random(0,width);
+    spot.y= random(0,height);
+    col.r = random(0, 255);
+    col.g = random(0);
+    col.b = random(100, 190);
+    noStroke();
+    fill(col.r, col.g, col.b);
+    ellipse(spot.x, spot.y, 24, 24);
 }

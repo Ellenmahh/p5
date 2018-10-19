@@ -1,7 +1,8 @@
 var x =0;
+var y =0;
+var speed = 3;
 function setup() {
     createCanvas(600, 400);
-
 }
 
 function draw() {
@@ -12,8 +13,13 @@ function draw() {
     ellipse(x, 200, 100, 100);
 
     if (x > width){
-        println("OFF THE SCREEN!");
+        speed = -3;
     }
-    x=x+3;
+
+    if(x <= 0){
+        speed = 3;
+    }
+
+    x=x+speed;
 
 }
